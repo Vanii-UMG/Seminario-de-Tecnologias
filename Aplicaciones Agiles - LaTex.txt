@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{left=2.4cm, right=2.4cm, top=2.4cm, bottom=2.4cm}
+\usepackage{times}
+\setlength{\parindent}{0pt} % Elimina la sangría en los párrafos
+
+\title{\Large \textbf{BUENAS PRÁCTICAS PARA EL DESARROLLO DE APLICACIONES ÁGILES}}
+\author{V. N. Alcantara Mendoza \\
+7690-18-1298 Universidad Mariano Gálvez \\
+Seminario de Tecnología de Información \\
+\texttt{valcantaram@miumg.edu.gt}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Resumen}
+\vspace{0.5em}
+El desarrollo ágil de aplicaciones ha revolucionado la manera en que se gestionan los proyectos de software, permitiendo una mayor flexibilidad y adaptación a los cambios. Este artículo explora las mejores prácticas para implementar métodos ágiles, centrándose en la planificación iterativa, la colaboración continua con el cliente y el uso de herramientas adecuadas para el seguimiento del progreso. Se destacan estrategias clave como la integración continua, la entrega continua y el enfoque en la calidad del software. Los resultados muestran que seguir estas prácticas puede mejorar significativamente la eficiencia del equipo y la satisfacción del cliente, facilitando la entrega de productos de alta calidad en menos tiempo.
+
+\section{Palabras Clave}
+\vspace{0.5em}
+\textbf{Palabras clave:} desarrollo ágil, buenas prácticas, integración continua, entrega continua, gestión de proyectos.
+
+\section{Desarrollo del Tema}
+\vspace{0.5em}
+El enfoque ágil se ha convertido en una metodología estándar en el desarrollo de software debido a su capacidad para adaptarse a cambios y entregar valor de manera continua. Las buenas prácticas en el desarrollo ágil incluyen:
+\begin{itemize}
+    \item \textbf{Planificación Iterativa}: En lugar de un plan rígido y detallado, se adoptan ciclos de desarrollo cortos (Sprint) que permiten ajustes frecuentes basados en el feedback del cliente. Esto asegura que el producto evolucione de acuerdo con las necesidades cambiantes.
+    \item \textbf{Colaboración Continua con el Cliente}: La comunicación constante con el cliente es fundamental para comprender sus necesidades y expectativas. Las reuniones regulares y las demostraciones incrementales facilitan esta colaboración y aseguran que el producto final cumpla con los requisitos del cliente.
+    \item \textbf{Integración y Entrega Continua}: La integración continua implica fusionar el código de los desarrolladores en un repositorio compartido varias veces al día, lo que facilita la detección temprana de errores. La entrega continua va un paso más allá al automatizar el proceso de despliegue, permitiendo que las nuevas versiones del software se liberen con frecuencia.
+    \item \textbf{Automatización de Pruebas}: La implementación de pruebas automatizadas asegura que los cambios en el código no introduzcan errores en el sistema. Esto es esencial para mantener la calidad del software a lo largo de los ciclos de desarrollo rápidos.
+\end{itemize}
+
+Estas prácticas contribuyen a un desarrollo más eficiente y a un producto final de mayor calidad. La implementación adecuada de estas metodologías requiere un compromiso del equipo y un enfoque disciplinado en la gestión del proyecto.
+
+El desarrollo ágil pone un fuerte análisis en la calidad del software, promoviendo prácticas como el desarrollo basado en pruebas (TDD) y la revisión de código. El TDD implica escribir pruebas antes de desarrollar el código, asegurando que el software cumpla con los requisitos desde el principio. La revisión de código, por otro lado, fomenta la colaboración entre los desarrolladores y la identificación de errores o mejoras potenciales en el código. Estas prácticas no solo mejoran la calidad del software, sino también contribuyen a la mantenibilidad y escalabilidad del producto final. Las metodologías ágiles fomentan la reflexión y la evaluación continua a través de ceremonias como las retrospectivas de sprint. Durante estas reuniones, el equipo revisa el trabajo realizado, identifica áreas de mejora y ajusta sus prácticas para el próximo sprint.
+
+En el entorno ágil, los equipos son auto-organizados y multidisciplinarios, lo que significa que los miembros del equipo asumen múltiples roles y responsabilidades. La gestión del equipo se centra en facilitar la colaboración y asegurar que cada miembro esté alineado con los objetivos del proyecto. Los roles como el Scrum Master y el Product Owner son fundamentales para el éxito del proyecto ágil. El Product Owner, por su parte, se encarga de priorizar las tareas y asegurar que el equipo trabaje en las características más valiosas para el cliente.
+
+\section{Observaciones y Comentarios}
+\vspace{0.5em}
+La aplicación de las buenas prácticas ágiles puede presentar desafíos, como la necesidad de una adaptación cultural dentro del equipo y la gestión de expectativas del cliente. La capacitación continua del equipo y el uso de herramientas adecuadas para la automatización y seguimiento son cruciales para superar estos desafíos. La experiencia práctica y el feedback continuo son esenciales para optimizar los procesos ágiles y mejorar los resultados del proyecto.
+
+\section{Conclusiones}
+\vspace{0.5em}
+\begin{enumerate}
+    \item La implementación de prácticas ágiles como la planificación iterativa y la integración continua puede mejorar significativamente la eficiencia del desarrollo de software.
+    \item La colaboración continua con el cliente es fundamental para asegurar que el producto cumpla con sus expectativas y necesidades.
+    \item La automatización de pruebas y despliegue ayuda a mantener la calidad del software y facilita el proceso de entrega continua.
+\end{enumerate}
+
+\section{Bibliografía}
+\vspace{0.5em}
+\begin{itemize}
+    \item Grenning, J. (2020). \textit{Succeeding with Agile: Software Development and Management}. Pragmatic Bookshelf.
+    \item Sutherland, J., \& Schwaber, K. (2021). \textit{Scrum: The Art of Doing Twice the Work in Half the Time}. Crown Business.
+    \item Pichler, R. (2019). \textit{Strategies for Scaling Agile: A Practical Guide for Implementing Agile Across Multiple Teams}. Pearson.
+    \item Mann, C., \& O’Neill, J. (2022). \textit{Agile Product Management with Scrum: Creating Products that People Love}. Addison-Wesley.
+\end{itemize}
+
+\texttt{https://github.com/Vanii-UMG/Seminario-de-Tecnologias.git}
+
+\end{document}
