@@ -1,0 +1,73 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2.4cm,right=2.4cm,top=2.4cm,bottom=2.4cm]{geometry}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+% Configuración para subtítulos
+\titleformat{\section}{\bfseries\leftskip=0pt}{\thesection}{1em}{}
+
+% Configuración para que el renglón sea cerrado
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Título y autor
+\title{\textbf{\large{Orquestación de Servidores, Kubernetes, Microservicios, OAuth2.0 e Implementación de Servicios en la Nube (12-Factor Application)}}}
+\author{\textit{V. N. Alcantara Mendoza}\\
+\textit{7690-18-1298 Universidad Mariano Gálvez}\\
+\textit{Seminario de Tecnología de Información}\\
+\textit{valcantaram@miumg.edu.gt}}
+\date{}
+
+\begin{document}
+\maketitle
+
+% Resumen
+\textbf{Resumen}\\
+La orquestación de servidores, Kubernetes, microservicios, OAuth2.0 e implementación de servicios en la nube mediante el enfoque 12-Factor son componentes cruciales en la arquitectura de software moderna. Estos elementos juegan un papel esencial en la creación de aplicaciones escalables, seguras y altamente disponibles. La orquestación de servidores y Kubernetes proporcionan las herramientas necesarias para la gestión eficiente de contenedores y la automatización de procesos en entornos distribuidos. Los microservicios, por otro lado, permiten la creación de aplicaciones modulares que se pueden desarrollar, desplegar y escalar de manera independiente. OAuth2.0 es fundamental para la autorización segura en aplicaciones distribuidas, mientras que el enfoque 12-Factor ofrece principios para construir aplicaciones nativas de la nube que sean robustas y mantenibles.
+
+% Palabras clave
+\textbf{Palabras clave:} orquestación de servidores, Kubernetes, microservicios, OAuth2.0, 12-Factor Application, servicios en la nube.
+
+% Desarrollo del Tema
+\section*{Desarrollo del Tema}
+En el contexto actual, la orquestación de servidores, Kubernetes, microservicios, OAuth2.0 y el enfoque 12-Factor son fundamentales para la construcción de aplicaciones escalables y eficientes en la nube.
+
+\textbf{Orquestación de Servidores y Kubernetes:} La orquestación de servidores se refiere al proceso de automatizar la gestión y coordinación de servidores en un entorno de TI. Kubernetes, como plataforma de orquestación de contenedores, facilita esta tarea al proporcionar una infraestructura para desplegar, escalar y gestionar aplicaciones en contenedores. A través de conceptos como pods, servicios y despliegues, Kubernetes permite la administración eficiente de aplicaciones distribuidas, garantizando alta disponibilidad y equilibrio de carga.
+
+\textbf{Microservicios:} El enfoque de microservicios implica diseñar una aplicación como un conjunto de servicios pequeños e independientes que se comunican a través de APIs bien definidas. Cada microservicio es responsable de una funcionalidad específica y puede ser desarrollado, desplegado y escalado de manera autónoma. Este enfoque mejora la flexibilidad y la capacidad de mantenimiento de las aplicaciones, permitiendo a los equipos trabajar de manera más efectiva y reducir el tiempo de desarrollo.
+
+\textbf{OAuth2.0:} OAuth2.0 es un protocolo de autorización que permite a las aplicaciones obtener acceso limitado a los recursos de un usuario en otro servicio. Utiliza tokens de acceso para permitir a los usuarios autorizar a aplicaciones de terceros sin compartir sus credenciales. OAuth2.0 es fundamental para la seguridad en aplicaciones modernas, proporcionando un mecanismo robusto para la autorización en entornos distribuidos.
+
+\textbf{Implementación de Servicios en la Nube (12-Factor Application):} El enfoque 12-Factor es una metodología para construir aplicaciones que se adapten de manera óptima al entorno de la nube. Los 12 factores cubren aspectos como la gestión de configuraciones, el manejo de dependencias, la ejecución de procesos y la gestión de logs. Estos principios permiten construir aplicaciones que sean portables, escalables y mantenibles, maximizando los beneficios de la infraestructura de la nube.
+
+\section*{Observaciones y Comentarios}
+El desarrollo de una estrategia eficaz que integre la orquestación de servidores, Kubernetes, microservicios, OAuth2.0 y el enfoque 12-Factor es un proceso complejo que requiere una planificación meticulosa y una colaboración estrecha entre diferentes equipos. La adopción de estas prácticas puede significativamente mejorar la escalabilidad, seguridad y mantenimiento de las aplicaciones modernas. Sin embargo, es crucial mantener una vigilancia continua y actualizar las estrategias conforme a las evoluciones tecnológicas y a las mejores prácticas emergentes.
+
+\section*{Conclusiones}
+1. La orquestación de servidores con Kubernetes permite una gestión eficiente y automatizada de aplicaciones en contenedores.\\
+2. Los microservicios facilitan el desarrollo y escalado de aplicaciones mediante la creación de servicios modulares e independientes.\\
+3. OAuth2.0 proporciona un método seguro para la autorización en aplicaciones distribuidas.\\
+4. La implementación de servicios en la nube siguiendo el enfoque 12-Factor asegura que las aplicaciones sean robustas, escalables y fáciles de mantener.
+
+\section*{Recomendaciones}
+1. Adoptar Kubernetes para la orquestación de contenedores y asegurar una gestión eficaz de aplicaciones distribuidas.\\
+2. Considerar el diseño basado en microservicios para mejorar la flexibilidad y escalabilidad de las aplicaciones.\\
+3. Implementar OAuth2.0 para garantizar una autorización segura y eficiente en aplicaciones.\\
+4. Seguir los principios del enfoque 12-Factor para construir aplicaciones nativas de la nube que sean fáciles de mantener y escalar.
+
+\section*{Bibliografía}
+\begin{itemize}
+    \item Burns, B., \& Oppenheimer, D. (2019). \textit{Kubernetes: Up and Running: Dive into the Future of Infrastructure}. O'Reilly Media.
+    \item Newman, S. (2015). \textit{Building Microservices: Designing Fine-Grained Systems}. O'Reilly Media.
+    \item Hardt, D. (2012). \textit{The OAuth 2.0 Authorization Framework}. RFC 6749.
+    \item Richardson, C., \& Smith, F. (2016). \textit{Microservices Patterns: With examples in Java}. Manning Publications.
+    \item The 12-Factor App. (n.d.). \textit{The Twelve-Factor App}. Retrieved from \url{https://12factor.net/}
+\end{itemize}
+
+\section*{Repositorio}
+\url{https://github.com/Vanii-UMG/Seminario-de-Tecnologias.git}
+
+\end{document}
